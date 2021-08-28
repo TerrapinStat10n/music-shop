@@ -8,11 +8,13 @@ import CartScreen from './screens/CartScreen';
 
 // Components
 import Navbar from './components/Navbar';
+import BackDrop from './components/Backdrop';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <BackDrop />
       <main>
         <Switch>
           <Route exact path="/" component={HomeScreen}/> 
